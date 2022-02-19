@@ -12,21 +12,21 @@
   <!-- navbar -->
   <nav class="navbar">
       <ul class="link-group"> 
-          <li class="link active"><a href="#">home</a></li>
-          <li class="link"><a href="#">projects</a></li>
-          <li class="link"><a href="#">about</a></li>
-          <li class="link"><a href="#">contact</a></li>
+          <li class="link active"><a class="navBtn" type="button" href="#">home</a></li>
+          <li class="link"><a class="navBtn" type="button" href="#">projects</a></li>
+          <li class="link"><a class="navBtn" type="button" href="#">about</a></li>
+          <li class="link"><a class="navBtn" type="button" href="#">contact</a></li>
       </ul>
   </nav>
 
   <!-- home section -->
-  <section class="home-section active"> 
+  <section class="home-section show"> 
       <h1 class="hero-heading">Hello, i am <br> sumaya </h1>
       <img src="./IMG_4115.jpg" class="home-img" alt="">
   </section>
 
   <!-- project section -->
-      <section class="project-section">
+      <section class="project-section ">
           <h1 class="project-heading">some of my projects</h1>
           <div class="project-container">
          <div class="project-card">
@@ -90,6 +90,36 @@
                 <button class="project-btn live">see live</button>
              </div>
             </div>
+      </section>
+      <!-- about section -->
+      <section class="about-section">
+          <div class="about">
+              <div class="about-img-container">
+                 <img src="./IMG_4115.jpg" class="about-img"  alt="">
+                 <button class="download-cv-btn">download cv</button>
+              </div>
+              <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Etiam eu nulla ut dolor laoreet commodo. Curabitur dignissim gravida lectus, 
+                   at fringilla nunc porta ut. Curabitur placerat augue vel ante blandit, sit amet ullamcorper sem auctor. 
+                   Vestibulum fringilla diam non nibh pretium tempus. Mauris quis sem a nisi ultrices imperdiet. 
+                   Nullam cursus tellus sed laoreet porta. Nam vitae
+                   elementum lacinia feugiat vitae dui. Mauris ac facilisis nisi. </p>
+          </div>
+  <!-- skills -->
+       <div class="skill-section">
+             <h1 class="heading">skills</h1>
+             <div class="skills-container">
+                 <div class="skill-card">
+                    <img src="" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class=skill-name>HTML</h1>
+                    <p class="skill-info">Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit. 
+                         Nullam ultricies scelerisque tellus id convallis.
+                          Maecenas eget dignissim nisi</p>
+                 </div>
+             </div>
+        </div> 
       </section>
     <script src="./asset/script.js"></script>
  </body>
