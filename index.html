@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="asset/css/style.css">
+     <link rel="stylesheet" href="./asset/css/style.css">
      <title>Sumaya's Portfolio Website</title>
  </head>
  <body>
@@ -12,25 +12,25 @@
   <!-- navbar -->
   <nav class="navbar">
       <ul class="link-group"> 
-          <li class="link active"><a class="navBtn" type="button" href="#">home</a></li>
-          <li class="link"><a class="navBtn" type="button" href="#">projects</a></li>
-          <li class="link"><a class="navBtn" type="button" href="#">about</a></li>
-          <li class="link"><a class="navBtn" type="button" href="#">contact</a></li>
+          <li class="link active"><a type="button" href="#">home</a></li>
+          <li class="link"><a type="button" href="#">projects</a></li>
+          <li class="link"><a type="button" href="#">about</a></li>
+          <li class="link"><a type="button" href="#">contact</a></li>
       </ul>
   </nav>
 
   <!-- home section -->
-  <section class="home-section show"> 
+  <section class="home-section active"> 
       <h1 class="hero-heading">Hello, i am <br> sumaya </h1>
-      <img src="./IMG_4115.jpg" class="home-img" alt="">
+      <img src="./asset/img/IMG_4115.jpg" class="home-img" alt="">
   </section>
 
   <!-- project section -->
-      <section class="project-section ">
+      <section class="project-section">
           <h1 class="project-heading">some of my projects</h1>
           <div class="project-container">
          <div class="project-card">
-            <img src="./project01.jpeg" class="project-img" alt="">
+            <img src="./asset/img/project01.jpeg" class="project-img" alt="">
              <div class="project-content">
                  <h1 class="project-title">project 01</h1>
                  <p class="project-info">
@@ -46,7 +46,7 @@
               </div>
           </div>
           <div class="project-card">
-            <img src="./project02.jpeg" class="project-img" alt="">
+            <img src="./asset/img/project02.jpeg" class="project-img" alt="">
              <div class="project-content">
                  <h1 class="project-title">project 02</h1>
                  <p class="project-info">
@@ -61,7 +61,7 @@
                 </div>
               </div>
               <div class="project-card">
-                <img src="./project03.jpeg" class="project-img" alt="">
+                <img src="./asset/img/project03.jpeg" class="project-img" alt="">
                  <div class="project-content">
                      <h1 class="project-title">project 03</h1>
                      <p class="project-info">
@@ -76,7 +76,7 @@
                     </div>
                   </div>
          <div class="project-card">
-            <img src="./project04.jpeg" class="project-img" alt="">
+            <img src="./asset/img/project04.jpeg" class="project-img" alt="">
              <div class="project-content">
                     <h1 class="project-title">project 04</h1>
                      <p class="project-info">
@@ -95,7 +95,7 @@
       <section class="about-section">
           <div class="about">
               <div class="about-img-container">
-                 <img src="./IMG_4115.jpg" class="about-img"  alt="">
+                 <img src="./asset/img/IMG_4115.jpg" class="about-img"  alt="">
                  <button class="download-cv-btn">download cv</button>
               </div>
               <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -110,7 +110,7 @@
              <h1 class="heading">skills</h1>
              <div class="skills-container">
                  <div class="skill-card">
-                    <img src="" class="skill-img" alt="">
+                    <img src="./asset/img/html.png" class="skill-img" alt="">
                     <div class="skill-level">90%</div>
                     <h1 class=skill-name>HTML</h1>
                     <p class="skill-info">Lorem ipsum dolor sit amet,
@@ -118,9 +118,125 @@
                          Nullam ultricies scelerisque tellus id convallis.
                           Maecenas eget dignissim nisi</p>
                  </div>
+                 <div class="skill-card">
+                    <img src="./asset/img/css (1).png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class=skill-name>CSS</h1>
+                    <p class="skill-info">Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit. 
+                         Nullam ultricies scelerisque tellus id convallis.
+                          Maecenas eget dignissim nisi</p>
+                 </div>
+                 <div class="skill-card">
+                    <img src="./asset/img/js (1).png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class=skill-name>javascript</h1>
+                    <p class="skill-info">Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit. 
+                         Nullam ultricies scelerisque tellus id convallis.
+                          Maecenas eget dignissim nisi</p>
+                 </div>
+                 <div class="skill-card">
+                    <img src="./asset/img/reactjs.png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class=skill-name>React.js</h1>
+                    <p class="skill-info">Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit. 
+                         Nullam ultricies scelerisque tellus id convallis.
+                          Maecenas eget dignissim nisi</p>
+                 </div>
+                 <div class="skill-card">
+                    <img src="./asset/img/nodejs (1).png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class=skill-name>Node.js</h1>
+                    <p class="skill-info">Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit. 
+                         Nullam ultricies scelerisque tellus id convallis.
+                          Maecenas eget dignissim nisi</p>
+                 </div>
              </div>
         </div> 
+        <!-- timeline -->
+            <div class="timeline">
+              <h1 class="heading">education and experience</h1>
+              <div class="card">
+                 <div class="card-body">
+                   <h1 class="card-title">2000-2002</h1>
+                   <p class="card-detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                     Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                      Pellentesque dictum velit at venenatis condimentum. 
+                      Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                 </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">2000-2002</h1>
+                  <p class="card-detail">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                    Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                     Pellentesque dictum velit at venenatis condimentum. 
+                     Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">2000-2002</h1>
+                  <p class="card-detail">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                    Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                     Pellentesque dictum velit at venenatis condimentum. 
+                     Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">2002-2004</h1>
+                  <p class="card-detail">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                    Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                     Pellentesque dictum velit at venenatis condimentum. 
+                     Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">2004-2006</h1>
+                  <p class="card-detail">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                    Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                     Pellentesque dictum velit at venenatis condimentum. 
+                     Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">2006-2010</h1>
+                  <p class="card-detail">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Donec quis semper mauris. Aliquam suscipit faucibus magna a tempor.
+                    Ut vestibulum purus mi, ut rutrum metus vestibulum ut.
+                     Pellentesque dictum velit at venenatis condimentum. 
+                     Proin pellentesque nulla erat, et ullamcorper libero varius a. </p>
+                </div>
+             </div>
+            </div>
       </section>
-    <script src="./asset/script.js"></script>
+
+      contact section
+      <section class="contact-section"> 
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+      </section>
+    <script src="./asset/app.js"></script>
  </body>
  </html>
