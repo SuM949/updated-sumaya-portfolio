@@ -6,7 +6,7 @@ Tools used:
 HTML CSS Javascript Bootstrap JQuery
 
 
-/Users/sumayagure/updated-sumaya-portfolio/assets/img/Screenshot 2022-02-20 at 05.27.18.png
+
 
 Deployed Link:https://sum949.github.io/updated-sumaya-portfolio/
 The MIT License (MIT) Copyright © 2022
