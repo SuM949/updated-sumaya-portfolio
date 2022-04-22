@@ -6,7 +6,9 @@ Tools used:
 HTML CSS Javascript Bootstrap JQuery
 
 
-Deployed Link:
+
+
+Deployed Link:https://sum949.github.io/updated-sumaya-portfolio/
 The MIT License (MIT) Copyright © 2022
 
 Permission is hereby granted, free of charge, 
